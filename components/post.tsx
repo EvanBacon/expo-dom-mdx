@@ -8,7 +8,7 @@ import CustomComponents from "@/components/mdx-components";
 
 export default function HomeScreen({}: { dom?: import("expo/dom").DOMProps }) {
   return (
-    <div className="p-2">
+    <div className="p-5 w-full">
       <CustomComponents>
         <Story />
       </CustomComponents>
