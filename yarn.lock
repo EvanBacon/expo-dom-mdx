@@ -884,10 +884,10 @@
     "@babel/helper-validator-identifier" "^7.24.7"
     to-fast-properties "^2.0.0"
 
-"@bacons/mdx@^0.3.8":
-  version "0.3.8"
-  resolved "https://registry.yarnpkg.com/@bacons/mdx/-/mdx-0.3.8.tgz#31ce08cfec471a0ac8023bad244e58c12a517a1c"
-  integrity sha512-2EYBXX+OGylBbOjZTUFFhgp0l65SCNyCpCkL4HhBYWAXey3j5udk+DboviiuOmAmsFKpp/YKhOJlRTuMDY1MTg==
+"@bacons/mdx@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@bacons/mdx/-/mdx-0.4.0.tgz#645a21408e0984a1742d9db98e5b241fce39b165"
+  integrity sha512-BZDwkoOvhV+VSe/Lus7eQoAwyj3GpzHhllQfa7o6jVHFefLuo0aSY811+dkO1ZsP3QSXdISh3uNe6Au9cnebYQ==
   dependencies:
     "@bacons/react-views" "^1.1.3"
     "@expo/html-elements" "~0.9.1"

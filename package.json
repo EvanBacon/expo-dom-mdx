@@ -16,7 +16,7 @@
     "preset": "jest-expo"
   },
   "dependencies": {
-    "@bacons/mdx": "^0.3.8",
+    "@bacons/mdx": "^0.4.0",
     "@expo/vector-icons": "^14.0.2",
     "@react-navigation/native": "^6.0.2",
     "autoprefixer": "^10.4.20",

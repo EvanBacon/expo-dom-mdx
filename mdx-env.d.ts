@@ -1,6 +1,10 @@
 // Create types for mdx modules
 
 declare module "*.mdx" {
-  function Component(props: any): JSX.Element;
+  import React from "react";
+  import { CustomComponentsProp } from "@bacons/mdx";
+  const Component: React.FC<{
+    components?: CustomComponentsProp;
+  }>;
   export default Component;
 }
