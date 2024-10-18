@@ -1,5 +1,5 @@
 import { Stack } from "expo-router";
-import { PlatformColor } from "react-native";
+import * as AppleColors from "@bacons/apple-colors";
 
 export default function RootLayout() {
   return (
@@ -16,7 +16,7 @@ export default function RootLayout() {
         },
         // @ts-expect-error
         headerLargeStyle: {
-          backgroundColor: PlatformColor("systemGroupedBackgroundColor"), // Color of your background
+          backgroundColor: AppleColors.systemGroupedBackground, // Color of your background
         },
 
         title: "Hello",

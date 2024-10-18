@@ -835,6 +835,11 @@
     "@babel/helper-validator-identifier" "^7.24.7"
     to-fast-properties "^2.0.0"
 
+"@bacons/apple-colors@^0.0.6":
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/@bacons/apple-colors/-/apple-colors-0.0.6.tgz#8a09280fcc1463da238a32032c068bfef45d869f"
+  integrity sha512-EhgUcU6pMl9Xh/neHoufNITgHRIEGjqGcuWEOVmAuUbpi4USVHHp8Q9p2hniDwv8PIWC69j5d0TI+6fbDV3pOQ==
+
 "@bacons/mdx@^0.4.0":
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/@bacons/mdx/-/mdx-0.4.0.tgz#645a21408e0984a1742d9db98e5b241fce39b165"
