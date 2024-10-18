@@ -5,15 +5,10 @@
   "version": "1.0.0",
   "scripts": {
     "start": "expo start",
-    "reset-project": "node ./scripts/reset-project.js",
     "android": "expo run:android",
     "ios": "expo run:ios",
     "web": "expo start --web",
-    "test": "jest --watchAll",
     "lint": "expo lint"
-  },
-  "jest": {
-    "preset": "jest-expo"
   },
   "dependencies": {
     "@bacons/mdx": "^0.4.0",
@@ -44,12 +39,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
-    "@types/jest": "^29.5.12",
     "@types/react": "~18.2.45",
-    "@types/react-test-renderer": "^18.0.7",
-    "jest": "^29.2.1",
-    "jest-expo": "52.0.0-canary-20240904-69100c1",
-    "react-test-renderer": "18.3.1",
     "typescript": "~5.3.3"
   },
   "private": true
